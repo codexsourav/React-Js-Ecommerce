@@ -1,0 +1,44 @@
+.adress {
+  margin-top: 80px;
+}
+.addressbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.inputbox {
+  width: 40%;
+  height: 100%;
+}
+.btn {
+  width: calc(100% - 20px);
+  height: 50px;
+  background-color: rgb(45, 72, 230);
+  border: none;
+  border-radius: 5px;
+  padding: 0px 15px;
+  margin: 10px;
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.mapbox {
+  top: 120px;
+}
+
+@media only screen and (max-width: 800px) {
+  .addressbox {
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .mapbox img {
+    width: 100%;
+  }
+  .inputbox {
+    width: 100%;
+    height: auto;
+  }
+}

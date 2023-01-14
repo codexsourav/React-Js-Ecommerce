@@ -1,0 +1,86 @@
+.Productinfo {
+  width: 50%;
+  background-color: #fff;
+  padding: 10px 15px;
+  height: 100%;
+  margin-top: 120px;
+}
+.priceboxabout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: #303030;
+  font-family: "Oswald", Sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.pricesec {
+  width: 80%;
+  margin-top: 30px;
+}
+.discount {
+  text-transform: uppercase;
+  color: #ff152d;
+  font-weight: 500;
+}
+.desprice {
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+.disper {
+  color: red;
+  font-weight: 200;
+  margin-right: 10px;
+  opacity: 0.7;
+  font-size: 20px;
+}
+.buycartbtns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-top: 30px;
+}
+.buycartbtns a {
+  display: block;
+  width: 80%;
+  background-color: #fff;
+  margin: 0px 20px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.5s;
+}
+.buycartbtns .buybtn {
+  background-color: #ff152d;
+}
+.buycartbtns .buybtn:hover {
+  background-color: #d31326;
+}
+.buycartbtns .cartbtn {
+  background-color: rgb(32, 32, 32);
+}
+.buycartbtns .cartbtn:hover {
+  background-color: rgb(65, 65, 65);
+}
+.mrp {
+  margin-top: 5px;
+  text-decoration: line-through;
+  color: #b4b4b4;
+  font-size: 14px;
+}
+@media only screen and (max-width: 800px) {
+  .Productinfo {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .buycartbtns a {
+    margin: 0px 10px;
+  }
+}

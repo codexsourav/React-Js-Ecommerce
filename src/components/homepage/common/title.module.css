@@ -1,0 +1,16 @@
+.fctitle {
+  padding: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+.title {
+  color: #3d3d3d;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+}

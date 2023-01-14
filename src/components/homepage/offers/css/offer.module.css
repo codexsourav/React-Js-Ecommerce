@@ -1,0 +1,28 @@
+.offers {
+  display: flex;
+  gap: 30px;
+  margin-top: 100px;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 920px) {
+  .offers {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .offers {
+    padding: 0px 60px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .offers {
+    padding: 0px 20px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .offers {
+    padding: 0px 10px;
+  }
+}

@@ -1,0 +1,137 @@
+.auth {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 120px;
+  /* background-color: green; */
+  height: 100vh;
+}
+.sidecontent {
+  /* background-color: red; */
+  width: 40vw;
+}
+.sitelogo {
+  width: 230px;
+  margin: 30px 0px;
+}
+.sitedes {
+  font-size: 15px;
+  color: #263238;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+.noaccount {
+  color: #263238;
+  margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.noaccount a {
+  margin-left: 15px;
+  color: #026cff;
+}
+
+.loginbox {
+  width: 30vw;
+  /* background-color: gray; */
+}
+.formwrapper {
+  margin: 20px 30px;
+}
+.label {
+  display: block;
+  color: #263238;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.inp {
+  width: 100%;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 20px;
+  margin: 8px 0px;
+  background-color: #ededed;
+}
+.btn {
+  margin-top: 30px;
+  cursor: pointer;
+
+  width: 150px;
+  height: 50px;
+  border: none;
+  padding: 1rem;
+  background: linear-gradient(45deg, #3d5ee3 70%, #4a4a4a 10%, #4a4a4a 20%)
+    right;
+  background-size: 400%;
+  transition: 1s ease;
+  color: white;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background-position: left;
+}
+
+@media only screen and (max-width: 1200px) {
+  .auth {
+    margin: 0px 50px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .auth {
+    margin: 0px 10px;
+    height: auto;
+    flex-direction: column;
+  }
+  .sidecontent {
+    margin-top: 50px;
+  }
+  .sitelogo {
+    width: 140px;
+    margin: 50px 0px;
+  }
+  .loginbox {
+    width: 50vw;
+    /* background-color: gray; */
+  }
+  .formwrapper {
+    margin: 20px 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sidecontent {
+    /* background-color: red; */
+    width: 90%;
+  }
+  .loginbox {
+    width: 90%;
+  }
+  .formwrapper {
+    margin: 20px 30px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .auth {
+    margin: 0px 50px;
+  }
+  .loginbox {
+    width: 90%;
+  }
+  .sitelogo {
+    width: 120px;
+    margin: 50px 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .auth {
+    margin: 0px 30px;
+  }
+  .loginbox {
+    width: 100%;
+  }
+  .formwrapper {
+    margin: 20px 10px;
+  }
+}

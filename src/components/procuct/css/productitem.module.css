@@ -1,0 +1,17 @@
+.procuct {
+  width: 100%;
+  height: 500px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showtabs {
+  min-height: 100vh;
+}
+@media only screen and (max-width: 800px) {
+  .procuct {
+    flex-direction: column;
+    height: auto;
+  }
+}

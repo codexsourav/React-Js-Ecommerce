@@ -1,0 +1,29 @@
+.cartbox {
+  display: flex;
+}
+.products {
+  width: 70%;
+}
+.products table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid rgb(207, 207, 207);
+}
+.products table thead {
+  height: 50px;
+  border: 1px solid rgb(207, 207, 207);
+}
+.products table tbody,
+.products table tbody td {
+  height: 50px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+.products table tbody td img {
+  background-color: red;
+}
+
+.chackoutpage {
+  width: 30%;
+  background-color: red;
+}

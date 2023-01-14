@@ -1,0 +1,133 @@
+.header {
+  padding: 0px 60px;
+  display: flex;
+  height: calc(100vh - 80px);
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e2f3fa;
+  max-width: 1400px;
+  margin: 80px auto 0px auto;
+  max-height: 700px;
+}
+.sidecontent {
+  /* background-color: red; */
+  width: 50%;
+}
+.headertitle {
+  color: #252525;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+.headerdes {
+  font-size: 20px;
+  padding: 30px 0px;
+  color: #5a5a5a;
+}
+.sidelogoimg {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  max-height: 700px;
+  /* background-color: red; */
+  height: calc(100vh - 80px);
+}
+.sidelogoimg img {
+  width: 600px;
+  margin-right: -50px;
+}
+
+.shopbtn {
+  margin: 40px 0px;
+}
+
+.btnshop {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3em;
+  fill: #0076fb;
+  color: #0076fb;
+  background-color: #ffffff;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 38px 45px 0px
+    rgba(128.00000185759168, 125.00000205661935, 155.99999999999997, 0.12);
+  padding: 18px 45px 18px 45px;
+}
+.btnshop:hover {
+  background-color: #026cff;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1100px) {
+  .sidelogoimg img {
+    width: 500px;
+    margin-right: -50px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .sidelogoimg img {
+    width: 420px;
+  }
+
+  .headerdes {
+    padding: 20px 0px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .header {
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 60px;
+    height: 100%;
+    max-height: 800px;
+  }
+  .sidecontent {
+    width: 100%;
+    padding: 30px;
+  }
+  .sidelogoimg {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin-top: 78px;
+    max-height: 700px;
+  }
+  .headertitle {
+    font-size: 35px;
+    margin-top: 60px;
+  }
+  .headerdes {
+    font-size: 18px;
+  }
+  .sidelogoimg img {
+    width: 500px;
+    margin-right: 0px;
+    margin-top: -30px;
+  }
+  .shopbtn {
+    margin-top: 30px;
+  }
+  .headerdes {
+    padding: 20px 0px;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  .sidelogoimg img {
+    width: 400px;
+  }
+
+  .btnshop {
+    padding: 15px 40px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .sidelogoimg img {
+    width: 100%;
+  }
+}

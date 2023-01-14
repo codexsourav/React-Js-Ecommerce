@@ -1,0 +1,15 @@
+.shop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+  flex-direction: column;
+  width: 100%;
+}
+.listbox {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
